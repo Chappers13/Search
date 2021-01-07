@@ -1,0 +1,21 @@
+/* This is the style file for the main index page */
+
+body{
+  background-color: white;
+}
+
+#Image-link{
+  margin-top: 15px;
+  margin-right: 25px;
+  text-decoration: none;
+  color:black;
+  font-family: Arial;
+  font-size: 12px;
+
+}
+
+.logo_pic{
+  text-align: center;
+  padding: 25px;
+  margin-top: 175px;
+}
