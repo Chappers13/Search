@@ -26,3 +26,35 @@ a.Image-link:hover{
   padding: 25px;
   margin-top: 175px;
 }
+
+.wrapper{
+  position: relative;
+  display: flex;
+  min-width: 100px;
+  margin-left: 37%;
+}
+
+.search-icon{
+  position: absolute;
+  top:6px;
+  left: 8px;
+  width: 14px;
+}
+
+.clear-icon{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 10px;
+  visibility: hidden;
+}
+
+.search{
+  border: 1px solid grey;
+  border-radius: 25px;
+  height: 30px;
+  width: 150%;
+  padding: 2px 23px 2px 30px;
+  outline:0;
+  text-align: center;
+}
