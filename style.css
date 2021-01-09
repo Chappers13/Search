@@ -4,18 +4,21 @@ body{
   background-color: white;
 }
 
+.Link-container{
+  text-align: right;
+}
 
-#Image-link{
+a.Image-link:hover{
+  text-decoration: underline;
+}
+
+.Image-link{
   margin-top: 15px;
   margin-right: 25px;
   color:black;
   font-family: Arial;
   font-size: 12px;
   text-decoration: none;
-}
-
-#Image-link:hover{
-  text-decoration: underline;
 }
 
 .logo_pic{
