@@ -4,16 +4,17 @@ body{
   background-color: white;
 }
 
+
 #Image-link{
   margin-top: 15px;
   margin-right: 25px;
-  text-decoration: none;
   color:black;
   font-family: Arial;
   font-size: 12px;
+  text-decoration: none;
 }
 
-a:hover{
+#Image-link:hover{
   text-decoration: underline;
 }
 
