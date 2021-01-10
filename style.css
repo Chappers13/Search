@@ -24,14 +24,14 @@ a.Image-link:hover{
 .logo_pic{
   text-align: center;
   padding: 25px;
-  margin-top: 175px;
+  margin-top: 150px;
 }
 
 .wrapper{
   position: relative;
   display: flex;
   min-width: 100px;
-  margin-left: 37%;
+  margin-left: 35%;
 }
 
 .search-icon{
@@ -50,11 +50,29 @@ a.Image-link:hover{
 }
 
 .search{
-  border: 1px solid grey;
+  border: 1px solid rgba(221, 217, 217, 0.918);
   border-radius: 25px;
-  height: 30px;
+  height: 38px;
   width: 150%;
   padding: 2px 23px 2px 30px;
   outline:0;
+
+}
+
+.search:hover{
+  box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.24);
+}
+
+.search-button{
+  background-color: rgb(255, 255, 255); 
+  color:black;
+  padding: 15px 32px;
   text-align: center;
+  height: 12px;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 14px;
+  margin-left: 50%;
+  margin-top: 28px;
+  font-family: Arial, Helvetica, sans-serif;
 }
