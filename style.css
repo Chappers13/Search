@@ -65,7 +65,7 @@ a.Image-link:hover{
   box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.24);
 }
 
-.search-button{
+.search-button, .lucky-button{
   background-color:whitesmoke;
   color:rgba(0, 0, 0, 0.671);
   border: none;
@@ -79,18 +79,7 @@ a.Image-link:hover{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.lucky-button{
-  background-color:whitesmoke;
-  color:rgba(0, 0, 0, 0.671);
-  border: none;
-  height: 32px;
-  width: 130px;
-  font-size: 14px;
-  display: inline-flex;
-  margin-left: 10px;
-  font-family: Arial, Helvetica, sans-serif;
 
-}
 
 .search-button:hover, .lucky-button:hover{
   box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.24);
